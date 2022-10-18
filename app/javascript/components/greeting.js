@@ -16,7 +16,7 @@ function Greeting() {
   }, []);
 
   const randomGreeting = (greetings) => {
-    const random = (Math.floor(Math.random() * 5)) + 1;
+    const random = (Math.floor(Math.random() * greetings.length)) + 1;
     greetings.map((greet) => {
       if (greet.greet_id == random) {
         setGreet({...currentGreet, greeting: greet.greeting});
