@@ -4,7 +4,7 @@ import "./controllers"
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Provider } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
 import Store from './components/redux/configureState';
 import App from './components/app';
 
