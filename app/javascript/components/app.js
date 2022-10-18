@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Greeting from './greeting'
 
 function App() {
   return (
