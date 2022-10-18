@@ -5,7 +5,6 @@ import Greeting from './greeting'
 function App() {
   return (
     <div>
-      <h1>Hello rails-react</h1>
       <Routes>
         <Route path='/' element={ <Greeting />} />
       </Routes>
